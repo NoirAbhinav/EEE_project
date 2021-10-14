@@ -1,0 +1,13 @@
+      footer{
+        height: 140px;
+        background-color: black;
+        color: white;
+        bottom: 0px;
+        box-shadow: 0px 1px 10px 8px gray;
+        padding: 20px;
+      }
+      .copy{
+        position: relative;
+        top: 0px;
+        left: 85%;
+      }

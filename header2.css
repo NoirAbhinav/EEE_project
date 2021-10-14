@@ -1,0 +1,58 @@
+      h1,h2,h3,h4{
+        font-family: 'Roboto Slab', serif;
+      }
+      body{
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+      }
+      a:visited,a:active,a:hover,a:link{
+        outline: none;
+        text-decoration: none;
+      }
+      .logo{
+        border-radius: 90px;
+        z-index: 10;
+        position: fixed;
+        top: 15px;
+        left: 15px;
+      }
+      .top{
+        margin: 0;
+        padding: 12px;
+        background-color: black;
+        height: 80px;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        text-align: right;
+        z-index: 100000;
+      }
+      .top,.logo{
+        transition: box-shadow 0.5s ease-in-out;
+      }
+      .logo:hover{
+        box-shadow:0px 3px 12px 2px green;
+      }
+      .top-btn{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        top: 0px;
+        right: 30px;
+        padding: 8px 30px;
+        border-radius: 50px;
+        display: inline-block;
+        background-color: #000000;
+        font-size: 22px;
+        margin: 0px 5px 0px;
+        transition: transform 0.3s box-shadow 0.2s ease-in-out ;
+      }
+      .top-btn:hover{
+          box-shadow: 0px 3px 15px 1px gray;
+          transition: transform 0.3s box-shadow 0.2s ease-in-out ;
+      }
+      .top-btn:active{
+          transform: translateY(0px);
+          box-shadow: none;
+          transition: transform 0.3s box-shadow 0.2s ease-in-out ;
+      }

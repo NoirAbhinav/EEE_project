@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+    <script src="header.js"></script>
+  </head>
+  <body>
+        <h1 class="top">
+        <a class="logo" href="index.html">
+          <b>Ambi Track</b>
+        </a>
+        <a class='top-btn' href="index.html">Home</a>
+          <a class='top-btn' href="about.html">About Us</a>
+          <a class='top-btn' href="teams.html">Our Team</a>
+        </h1>
+        <div class="wrap">
+    <div class="text">
+      Be Calm<br>Trust Us<br>We are on OUR Way<br>
+    </div>
+  </div>
+  <div class="wrap2">
+        <img class="f_image" src="logo.jpeg" alt="logo">
+        <form action="details.html" method="post" onsubmit="return validateForm()">
+          <input class='login-form' onkeyup="nameCheck(this)" type="text" name="name" id="username" value="" placeholder="Username">
+          <span id="username_error" class="error hide"></span>
+          <input class='login-form' onkeyup="passwordCheck(this)" type="password" name="password" id="password" value="password" placeholder="Password">
+          <span id="password_error" class="error hide"></span>
+          <input class="btn" type="submit" value="Submit"></input>
+        </form>
+  </div>
+
+    <script src="login.js" defer></script>
+    </body>
+    <footer>
+      Address:</br>
+      VIT Chennai,</br>
+      Kellambakam rd,</br>
+      Chennai 610027
+      <span class="copy">
+        &copy; Ambi Track
+      </copy>
+    </footer>
+    </html>

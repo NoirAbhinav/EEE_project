@@ -1,0 +1,46 @@
+.heading,.addi
+{
+    text-align: center;
+    background-color: #41aea9;
+    padding: 2%;
+}
+h1
+{
+    margin: 0px;
+    font-family: 'Sacramento', cursive;
+}
+.members
+{
+    background-color: #a6f6f1;
+}
+h4
+{
+    margin: 0px;
+}
+ul {
+    list-style-type: none; 
+    padding: 1%; 
+    margin: 0; 
+  }
+  
+  ul li {
+   
+    padding: 7px; /* Add some padding */
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+  }
+.addi
+{
+    text-align: center;
+    background-color: #41aea9;
+    padding: 1%;
+}
+h3{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+}
+img
+{
+    width: 4%;
+    height: 4%;
+}

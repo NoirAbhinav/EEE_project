@@ -1,0 +1,114 @@
+body
+{
+	background-image : linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	background-repeat : no-repeat; 
+	background-size : cover; 
+}
+
+.navtab
+{
+	padding : 4px;
+	background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	height : 62px;
+	width : 100%;
+	position : fixed;
+	top : 0px;
+	z-index : 4; 
+}
+
+.stan
+{
+	padding : 0px;
+	margin : 0;
+	font-family : 'Sacramento', cursive;
+	height : 62px;
+	width : 74.5%; 
+	display : inline-block;
+	float : left;
+}
+
+.stan p
+{
+	padding : 0;
+	margin : 0;	
+	width : auto; 
+	font-size : 55px;
+	font-weight : 900;  
+}
+
+.fis
+{
+	color : #01216e;
+}
+
+.sec
+{
+	color : #1b148f;
+}
+
+li
+{
+	font-family : 'Roboto slab', serif;
+	padding : 6px 16px 6px 12px;
+	float : right;
+	font-weight : 900;
+	color : #00572a;
+	font-size : 26px;
+	display : inline-block;
+}
+
+.list
+{
+	list-style-type : none;
+	display : inline-block;
+}
+
+.bottom
+{
+	margin-top : 62px;
+}
+
+.gapi
+{
+	width : 73%;
+	float : left;
+	display : inline-block;
+}
+
+.details-container
+{
+	margin-top : 10px;
+	z-index : 1;
+	margin-right : 0;
+	display : inline-block;
+	margin-left : 80px;
+	text-align : center; 
+}
+
+.details-container h1
+{
+	font-family : 'Sacramento', cursive;
+	color : #001445;
+	font-weight : 900;  
+}
+
+.details-container p
+{
+	font-weight : 800;
+	color : #2b3666;
+}
+
+.driver
+{
+	margin-bottom : 23px; 
+}
+
+.ambulance
+{
+	margin-bottom : 23px; 
+}
+
+.hospital
+{
+	margin-bottom : 23px; 
+}

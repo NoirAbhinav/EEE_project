@@ -1,0 +1,118 @@
+body
+{
+	background-image : linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	background-repeat : no-repeat; 
+	background-size : cover;
+	background-attachment: fixed; 
+}
+
+.navtab
+{
+	padding : 4px;
+	background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+	height : 110px;
+	width : 100%;
+	position : fixed;
+	top : 0px;
+	z-index : 1; 
+}
+
+.stan
+{
+	padding : 0px;
+	margin : 0;
+	font-family : 'Sacramento', cursive;
+	height : 62px;
+	width : 74.5%; 
+	display : inline-block;
+	float : left;
+}
+
+.stan p
+{
+	padding : 0;
+	margin : 0;	
+	width : auto; 
+	font-size : 55px;
+	font-weight : 900;  
+}
+
+.fis
+{
+	color : #01216e;
+}
+
+
+li
+{
+	font-family : 'Roboto slab', serif;
+	padding : 30px 16px 12px 25px;
+	float : right;
+	font-weight : 900;
+	color : #00572a;
+	font-size : 27px;
+	display : inline-block;
+}
+
+.list
+{
+	list-style-type : none;
+	display : inline-block;
+}
+
+.details-container
+{
+	width:100%;
+    padding:150px 100px 50px 100px;
+    margin:110px auto;
+    display:flex;
+    flex-direction:row;
+    font-family: 'Roboto',sans-serif;
+    font-weight:300;
+}
+
+.details-container h1
+{
+	font-family : 'Sacramento', cursive;
+	color : #001445;
+	font-weight : 900;  
+}
+
+.details-container p
+{
+	font-weight : 800;
+	color : #2b3666;
+}
+
+.driver
+{
+	background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px 2px rgba(0,0,0,.2);
+    margin: 28px;
+    text-align : center;
+    padding: 28px;
+    width: 35%; 
+}
+
+.ambulance
+{
+	background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px 2px rgba(0,0,0,.2);
+    margin: 28px;
+    text-align : center;
+    padding: 28px;
+    width: 35%;  
+}
+
+.hospital
+{
+	background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px 2px rgba(0,0,0,.2);
+    margin: 28px;
+    text-align : center;
+    padding: 28px;
+    width: 35%;  
+}
